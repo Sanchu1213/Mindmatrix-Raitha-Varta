@@ -1,0 +1,8 @@
+Healthy
+Blight
+Brown Spot
+Leaf Curl
+Mosaic Virus
+Powdery Mildew
+Rust
+Yellow Vein Mosaic

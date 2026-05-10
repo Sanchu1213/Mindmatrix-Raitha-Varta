@@ -1,0 +1,13 @@
+# Raitha Varta - Local Properties Example
+# Copy this file to 'local.properties' and fill in your actual API keys.
+# DO NOT commit the real 'local.properties' to Git.
+
+# Google Gemini API Key (Get from https://aistudio.google.com/app/apikey)
+GEMINI_API_KEY=your_gemini_api_key_here
+
+# OpenWeatherMap API Key (Get from https://openweathermap.org/api)
+WEATHER_API_KEY=your_weather_api_key_here
+
+# Data.gov.in API Key (Get from https://www.data.gov.in/user/register)
+DATA_GOV_IN_API_KEY=your_data_gov_api_key_here
+AGMARKNET_RESOURCE_ID=9ef842fd-9a74-4d42-81d3-3c9902640578

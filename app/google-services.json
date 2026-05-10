@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "555541704696",
+    "project_id": "raithra-varta",
+    "storage_bucket": "raithra-varta.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555541704696:android:390f662cb22546fb6fb00d",
+        "android_client_info": {
+          "package_name": "com.example.raitha_varta"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOofALIZyWdbRkQetdBUxvEYb7aNF_ysY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

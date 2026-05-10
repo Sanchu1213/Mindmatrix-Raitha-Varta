@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Raitha Varta</string>
+    <string name="news">News</string>
+    <string name="market">Market</string>
+    <string name="schemes">Schemes</string>
+    <string name="weather">Weather</string>
+    <string name="settings">Settings</string>
+    <string name="saved">Saved</string>
+    <string name="search_news">Search news...</string>
+    <string name="search_market">Search crop or market...</string>
+    <string name="search_city">Enter city name...</string>
+    <string name="read_full_article">Read Full Article</string>
+    <string name="article_detail">Article Detail</string>
+    <string name="weather_updates">Weather Updates</string>
+    <string name="humidity">Humidity</string>
+    <string name="pressure">Pressure</string>
+    <string name="preferred_city">Preferred City</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="current_city_set">Current city is set to %1$s</string>
+    <string name="no_bookmarks">No bookmarks yet</string>
+    <string name="article_not_found">Article not found</string>
+</resources>
