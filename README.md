@@ -16,13 +16,31 @@ Raitha Varta ("Farmer's News" in Kannada) is a comprehensive Android application
 
 ---
 
-## 📸 Screenshots
+## 📸 App Gallery
 
-### Home — Crop Dashboard
-![Raitha Varta Crop Dashboard](./screenshots/dashboard.png)
+Raitha Varta features a modern, intuitive interface available in both **English** and **Kannada (ಕನ್ನಡ)**.
 
-### Key Feature Screens
-![Market, Expert Chat, Disease Detection & Stories](./screenshots/features.png)
+### 🌟 Onboarding & Dashboard
+| **English** | **Kannada** |
+|:---:|:---:|
+| ![EN Welcome](./screenshots/en_1_welcome.jpg) | ![KN Welcome](./screenshots/kn_1_welcome.jpg) |
+| ![EN Dashboard](./screenshots/en_2_dashboard.jpg) | ![KN Dashboard](./screenshots/kn_2_dashboard.jpg) |
+
+### 💡 Agricultural Tips & Market Prices
+| **English** | **Kannada** |
+|:---:|:---:|
+| ![EN Tips](./screenshots/en_3_tips.jpg) | ![KN Tips](./screenshots/kn_3_tips.jpg) |
+| ![EN Market](./screenshots/en_4_market.jpg) | ![KN Market](./screenshots/kn_4_market.jpg) |
+
+### 🤖 AI Expert & Farmer Community
+| **AI Disease Analysis** | **Farmer Community** |
+|:---:|:---:|
+| ![KN Expert](./screenshots/kn_6_expert_analysis.jpg) | ![KN Community](./screenshots/kn_7_community.jpg) |
+
+### 🏆 Success Stories
+| **English** | **Kannada** |
+|:---:|:---:|
+| ![EN Stories](./screenshots/en_5_stories.jpg) | ![KN Stories](./screenshots/kn_8_stories.jpg) |
 
 ---
 
