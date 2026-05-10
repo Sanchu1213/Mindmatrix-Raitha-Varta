@@ -19,10 +19,10 @@ Raitha Varta ("Farmer's News" in Kannada) is a comprehensive Android application
 ## 📸 Screenshots
 
 ### Home — Crop Dashboard
-![Raitha Varta Crop Dashboard](C:\Users\cheth\.gemini\antigravity\brain\f6372d72-4e9e-44aa-bd21-2e99947d474e\raitha_varta_app_mockup_1778389506722.png)
+![Raitha Varta Crop Dashboard](./screenshots/dashboard.png)
 
 ### Key Feature Screens
-![Market, Expert Chat, Disease Detection & Stories](C:\Users\cheth\.gemini\antigravity\brain\f6372d72-4e9e-44aa-bd21-2e99947d474e\raitha_varta_feature_screens_1778389558393.png)
+![Market, Expert Chat, Disease Detection & Stories](./screenshots/features.png)
 
 ---
 
