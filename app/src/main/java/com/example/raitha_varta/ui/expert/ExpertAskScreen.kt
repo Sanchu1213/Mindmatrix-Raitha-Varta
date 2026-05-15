@@ -1,10 +1,12 @@
 package com.example.raitha_varta.ui.expert
 
+import android.Manifest
 import android.graphics.Bitmap
 import android.graphics.ImageDecoder
 import android.net.Uri
 import android.os.Build
 import android.provider.MediaStore
+import android.widget.Toast
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.animation.AnimatedContent
@@ -119,11 +121,21 @@ fun ExpertLandingPage(
 ) {
     val context = LocalContext.current
     val appText = remember(languageCode) { appStrings(languageCode) }
-    
+
     val cameraLauncher = rememberLauncherForActivityResult(
         contract = ActivityResultContracts.TakePicturePreview()
     ) { bitmap ->
         if (bitmap != null) onStartNew(bitmap)
+    }
+
+    val cameraPermissionLauncher = rememberLauncherForActivityResult(
+        contract = ActivityResultContracts.RequestPermission()
+    ) { isGranted ->
+        if (isGranted) {
+            cameraLauncher.launch(null)
+        } else {
+            Toast.makeText(context, "Camera permission is required to analyze crops.", Toast.LENGTH_LONG).show()
+        }
     }
 
     Scaffold(
@@ -153,7 +165,7 @@ fun ExpertLandingPage(
         },
         floatingActionButton = {
             FloatingActionButton(
-                onClick = { cameraLauncher.launch(null) },
+                onClick = { cameraPermissionLauncher.launch(Manifest.permission.CAMERA) },
                 containerColor = Color(0xFF2E7D32),
                 contentColor = Color.White
             ) {
@@ -374,12 +386,23 @@ fun ChatInterface(
     val messages by viewModel.chatMessages.collectAsState()
     val isLoading by viewModel.isLoading.collectAsState()
     var inputText by remember { mutableStateOf("") }
+    val context = LocalContext.current
     val cameraLauncher = rememberLauncherForActivityResult(
         contract = ActivityResultContracts.TakePicturePreview()
     ) { bitmap ->
         if (bitmap != null) {
             viewModel.sendMessage(inputText, bitmap, languageCode)
             inputText = ""
+        }
+    }
+
+    val cameraPermissionLauncher = rememberLauncherForActivityResult(
+        contract = ActivityResultContracts.RequestPermission()
+    ) { isGranted ->
+        if (isGranted) {
+            cameraLauncher.launch(null)
+        } else {
+            Toast.makeText(context, "Camera permission is required to analyze crops.", Toast.LENGTH_LONG).show()
         }
     }
     
@@ -418,7 +441,7 @@ fun ChatInterface(
                     modifier = Modifier.fillMaxWidth().padding(8.dp),
                     verticalAlignment = Alignment.CenterVertically
                 ) {
-                    IconButton(onClick = { cameraLauncher.launch(null) }) {
+                    IconButton(onClick = { cameraPermissionLauncher.launch(Manifest.permission.CAMERA) }) {
                         Icon(Icons.Default.Add, "Add photo", tint = Color(0xFF2E7D32))
                     }
                     TextField(
