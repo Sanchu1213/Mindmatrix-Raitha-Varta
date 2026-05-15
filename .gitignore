@@ -13,3 +13,12 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Logs and scratch docs
+log*.txt
+live_log.txt
+*.html
+
+# Firebase
+.firebase/
+
