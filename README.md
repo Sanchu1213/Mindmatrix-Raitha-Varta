@@ -367,6 +367,16 @@ MarketScreen  ExpertAskScreen  StoriesApp  Community  Settings
 
 ---
 
+## 🔮 Future Improvements
+
+- **Multilingual Expansion:** Add support for more regional languages (e.g., Telugu, Tamil) to assist farmers in neighboring states.
+- **Offline ML Models:** Expand the local on-device capabilities for crop recommendation without internet dependency.
+- **Direct Marketplace:** Implement a peer-to-peer selling platform allowing farmers to sell directly to consumers.
+- **IoT Integration:** Connect with smart soil sensors for live farm-specific data.
+- **Video Content:** Add agricultural tutorial videos in the farmer community section.
+
+---
+
 ## 🤝 Contributing
 
 Contributions are welcome! Please follow these steps:
