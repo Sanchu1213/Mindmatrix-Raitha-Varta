@@ -21,4 +21,4 @@ live_log.txt
 
 # Firebase
 .firebase/
-
+google-services.json
